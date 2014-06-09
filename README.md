@@ -8,13 +8,13 @@ scripts to install required software to be able to compile **Ruby**.
 
 - Git
 - Curl
-
+- Wget
 
 ## Install
 
 Install [rbenv] and friends by running:
 
-    curl https://raw.github.com/ernane/rbenv-installer/master/bin/rbenv-installer | bash
+    wget -q -O - https://raw.github.com/ernane/rbenv-installer/master/bin/rbenv-installer | bash
 
 
 ## Installing a Ruby
